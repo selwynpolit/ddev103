@@ -11,7 +11,7 @@ This repo does not include the API key files for Anthropic, Gemini, Groq,and Ope
 
 
 ### config/sync/key.key.selwyn_key_1.yml
-
+```yaml
 uuid: e6b6b848-32e4-49e6-b64d-e7fd2dfa48bc
 langcode: en
 status: true
@@ -26,10 +26,11 @@ key_provider_settings:
 key_value: PUT_YOUR_KEY_HERE
 key_input: text_field
 key_input_settings: {  }
-
+```
 
 
 ### config/sync/key.key.anthropic_key1.yml
+```yaml
 uuid: e0ff0302-7fc3-42e1-ac6c-5eee8d2fe136
 langcode: en
 status: true
@@ -44,8 +45,10 @@ key_provider_settings:
 key_value: PUT_YOUR_KEY_HERE
 key_input: text_field
 key_input_settings: {  }
+```
 
 ### config/sync/key.key.gemini_test_key.yml
+```yaml
 uuid: c8c0c28e-a617-48cd-8f5f-7b4b5b5bd2eb
 langcode: en
 status: true
@@ -60,8 +63,10 @@ key_provider_settings:
 key_value: PUT_YOUR_KEY_HERE
 key_input: text_field
 key_input_settings: {  }
+```
 
 ### config/sync/key.key.groq_test_key.yml
+```yaml
 uuid: 7791f7d9-398c-4a85-8807-18e57a44f836
 langcode: en
 status: true
@@ -76,3 +81,4 @@ key_provider_settings:
 key_value: PUT_YOUR_KEY_HERE
 key_input: text_field
 key_input_settings: {  }
+```

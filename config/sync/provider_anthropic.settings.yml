@@ -1,0 +1,6 @@
+api_key: anthropic_key1
+moderation: true
+version: '20240229'
+_core:
+  default_config_hash: TWT2GRFZcwNcrzucRerhFXiBOQqI4Ja0O5Vsn4t-zcI
+openai_moderation: 0

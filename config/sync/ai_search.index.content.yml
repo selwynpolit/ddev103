@@ -1,0 +1,21 @@
+control_field_max_length: false
+exclude_chunk_from_metadata: false
+indexing_options:
+  rendered_item_1:
+    indexing_option: main_content
+    max: -1
+  created:
+    indexing_option: attributes
+    max: -1
+  summary:
+    indexing_option: contextual_content
+    max: -1
+  type:
+    indexing_option: contextual_content
+    max: -1
+  status:
+    indexing_option: attributes
+    max: -1
+  title:
+    indexing_option: contextual_content
+    max: -1

@@ -1,0 +1,11 @@
+uuid: fc811876-aef9-4e25-bd36-29c30b01eeb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - ai_logging
+id: ai_log.token
+label: Token
+description: ''
+targetEntityType: ai_log
+cache: true

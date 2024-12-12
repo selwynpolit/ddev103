@@ -32,3 +32,5 @@
 # AI API key file exports
 config/sync/key.key.selwyn_key_1.yml
 config/sync/key.key.anthropic_key1.yml
+config/sync/key.key.gemini_test_key.yml
+config/sync/key.key.groq_test_key.yml

@@ -7,7 +7,7 @@ Fiddling with a local install of Milvus and doing RAG using the Search API
 
 ## AI API Keys
 
-This repo does not include the API key files for Anthropic and OpenAI. They look like this and are excluded in .gitignore file so they aren't accidentally committed to the repo.
+This repo does not include the API key files for Anthropic, Gemini, Groq,and OpenAI. They look like this and are excluded in .gitignore file so they aren't accidentally committed to the repo.
 
 
 ### config/sync/key.key.selwyn_key_1.yml
@@ -45,3 +45,34 @@ key_value: PUT_YOUR_KEY_HERE
 key_input: text_field
 key_input_settings: {  }
 
+### config/sync/key.key.gemini_test_key.yml
+uuid: c8c0c28e-a617-48cd-8f5f-7b4b5b5bd2eb
+langcode: en
+status: true
+dependencies: {  }
+id: gemini_test_key
+label: 'Gemini test key'
+description: ''
+key_type: authentication
+key_type_settings: {  }
+key_provider: config
+key_provider_settings:
+key_value: PUT_YOUR_KEY_HERE
+key_input: text_field
+key_input_settings: {  }
+
+### config/sync/key.key.groq_test_key.yml
+uuid: 7791f7d9-398c-4a85-8807-18e57a44f836
+langcode: en
+status: true
+dependencies: {  }
+id: groq_test_key
+label: 'Groq test key'
+description: 'selwyn wf test1'
+key_type: authentication
+key_type_settings: {  }
+key_provider: config
+key_provider_settings:
+key_value: PUT_YOUR_KEY_HERE
+key_input: text_field
+key_input_settings: {  }

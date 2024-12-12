@@ -28,3 +28,7 @@
 
 # Milvus files
 .ddev/milvus/
+
+# AI API key file exports
+config/sync/key.key.selwyn_key_1.yml
+config/sync/key.key.anthropic_key1.yml
